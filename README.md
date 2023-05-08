@@ -32,7 +32,7 @@ From Alphabet Soup’s business team, we have received a CSV containing more tha
 
 ## Optimization process to achieve 75% accuracy 
 
-1. In our first attempt we dropped STATUS cloumn as well. We also checked if our dataset was balanced. We added 2 additional hidden layers with 15 and 35 neurons as well as incrporated other activation functions into the model (selu, tanh). We switched our optimizer to SGD and increased the number of epochs to 150. The desired accuracy was not achieved, however, so we proceeded to our next option. 
+1. In our first attempt we dropped STATUS column as well. We also checked if our dataset was balanced. We added 2 additional hidden layers with 15 and 35 neurons as well as incorporated other activation functions into the model (selu, tanh). We switched our optimizer to SGD and increased the number of epochs to 150. The desired accuracy was not achieved, however, so we proceeded to our next option. 
 
 2. The next course of action was to use hyperparameter option. We tried several activation fnctions (sigmoid, tahn, selu). We decreased the number of epochs. The accuracy did improve from 2 previous models (73,04%), but we still haven't reached 75% accuracy, and the process took a little bit lesss than 2 hours.
 
